@@ -1,16 +1,13 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 28/11/2024
+Algoritmo "Folha de pagamento"
+
+
 
 var
 nome: caracter
-salariobruto, diastrabalhados, horames, valorhora, va, vt, descontoinss, descontovt, descontova, descontos, salarioliquido: real
+salariobruto, diastrabalhados, horames, valorhora, va, vt, descontoinss, descontovt, descontova, descontos, salarioliquido, folhapagamento: real
 
 // Função para calcular o valor por hora
-funcao calcular_valor_hora(salariobruto: real, horames: real): real
+funcao calcular_valor_hora(salariobruto, horames: real): real
 var
     valorhora: real
 inicio
@@ -54,7 +51,7 @@ inicio
 fimfuncao
 
 // Função para calcular o desconto do vale transporte
-funcao calcular_desconto_vt(salariobruto: real, vt: real): real
+funcao calcular_desconto_vt(salariobruto, vt: real): real
 var
     descontovt: real
 inicio
@@ -72,7 +69,7 @@ inicio
 fimfuncao
 
 // Função principal para calcular a folha de pagamento
-funcao calcular_folha_pagamento(salariobruto: real, diastrabalhados: real, horames: real): real
+funcao calcular_folha_pagamento(salariobruto, diastrabalhados, horames: real): real
 var
     valorhora, va, vt, descontoinss, descontovt, descontova, descontos, salarioliquido: real
 inicio
@@ -105,7 +102,7 @@ inicio
     leia(diastrabalhados)
     escreva("Horas trabalhadas no mês: ")
     leia(horames)
-    calcular_folha_pagamento(salariobruto, diastrabalhados, horames)
+    folhapagamento <- calcular_folha_pagamento(salariobruto, diastrabalhados, horames)
     escreval
     escreval("Nome do funcionário: ", nome)
     escreval("Salário bruto: R$", salariobruto:2:2)
