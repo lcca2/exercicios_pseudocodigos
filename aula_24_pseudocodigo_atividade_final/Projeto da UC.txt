@@ -1,0 +1,27 @@
+Formar grupos com dois alunos.
+
+Cada grupo vai projetar um sistema para ser realizado no visualG.
+Tema livre
+
+O que será avaliado no projeto:
+- Originalidade (Ser desenvolvido pelo grupo e não pegar pronto da internet);
+- Funcionalidade;
+- Complexidade do sistema;
+
+Dicas de pesquisa:
+- Youtube;
+- Sites;
+- ChatGPT;
+
+Serão disponibilizados 3 dias para o desenvolvimento do projeto.
+
+Cada grupo vai apresentar o projeto para os demais alunos da turma.
+
+Temas de exemplo:
+- Sistema contábeis
+- Sistema de supermercado
+- Sistema escolar (Senac Tech)
+- Sistema PIDS Tech
+- Sistema de loja
+
+
